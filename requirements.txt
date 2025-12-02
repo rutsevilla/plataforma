@@ -9,3 +9,5 @@ leaflet
 folium
 streamlit_folium
 rasterio
+matplotlib
+plotly
