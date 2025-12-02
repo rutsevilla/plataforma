@@ -16,7 +16,7 @@ st.set_page_config(
 
 # ================== PATHS ===================
 logo_path = "./static/logos/TDP_Logo_White.svg"
-shp_path = "/almacen/home/ruts/data/loc/panama/PAN_adm2.shp"
+shp_path = "/data/PAN_adm2.shp"
 tif_path = "./data/dem-cr.tiff"
 # data_path = 
 # csv_path = 
