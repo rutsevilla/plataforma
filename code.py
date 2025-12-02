@@ -100,7 +100,7 @@ with columna1:
         with st.container(border=True):
             c1, c2 = st.columns([1, 6])
             with c1:
-                demo_logo = img_to_data_uri('/share/home/ruts/visualizacion/plataforma/static/logos/demografia.png')
+                demo_logo = img_to_data_uri('./static/logos/demografia.png')
                 st.image(demo_logo, width=50)
             with c2:
                 st.markdown("<p style='font-size: 2.5vh; font-weight: 300; color: #fff;'>Demografía y Territorio</p>", unsafe_allow_html=True)
@@ -113,7 +113,7 @@ with columna1:
         with st.container(border=True):
             c1, c2 = st.columns([1, 6])
             with c1:
-                eco_logo = img_to_data_uri('/share/home/ruts/visualizacion/plataforma/static/logos/economia.png')
+                eco_logo = img_to_data_uri('./static/logos/economia.png')
                 st.image(eco_logo, width=50)
             with c2:
                 st.markdown("<p style='font-size: 2.5vh; font-weight: 300; color: #fff;'>Economía Local</p>", unsafe_allow_html=True)
@@ -126,7 +126,7 @@ with columna1:
         with st.container(border=True):
             c1, c2 = st.columns([1, 6])
             with c1:
-                salu_logo = img_to_data_uri('/share/home/ruts/visualizacion/plataforma/static/logos/salud.png')
+                salu_logo = img_to_data_uri('./static/logos/salud.png')
                 st.image(salu_logo, width=50)
             with c2:
                 st.markdown("<p style='font-size: 2.5vh; font-weight: 300; color: #fff;'>Salud</p>", unsafe_allow_html=True)
@@ -140,7 +140,7 @@ with columna1:
         with st.container(border=True):
             c1, c2 = st.columns([1, 6])
             with c1:
-                eneg_logo = img_to_data_uri('/share/home/ruts/visualizacion/plataforma/static/logos/energia.png')
+                eneg_logo = img_to_data_uri('./static/logos/energia.png')
                 st.image(eneg_logo, width=50)
             with c2:
                 st.markdown("<p style='font-size: 2.5vh; font-weight: 300; color: #fff;'>Servicios Públicos e Infraestructura</p>", unsafe_allow_html=True)
@@ -152,7 +152,7 @@ with columna1:
         with st.container(border=True):
             c1, c2 = st.columns([1, 6])
             with c1:
-                seg_logo = img_to_data_uri("/share/home/ruts/visualizacion/plataforma/static/logos/movilidad y seguridad.png")
+                seg_logo = img_to_data_uri("./static/logos/movilidad y seguridad.png")
                 st.image(seg_logo, width=50)
             with c2:
                 st.markdown("<p style='font-size: 2.5vh; font-weight: 300; color: #fff;'>Seguridad y Movilidad</p>", unsafe_allow_html=True)
@@ -165,7 +165,7 @@ with columna1:
         with st.container(border=True):
             c1, c2 = st.columns([1, 6])
             with c1:
-                opin_logo = img_to_data_uri("/share/home/ruts/visualizacion/plataforma/static/logos/opinion.png")
+                opin_logo = img_to_data_uri("./static/logos/opinion.png")
                 st.image(opin_logo, width=50)
             with c2:
                 st.markdown("<p style='font-size: 2.5vh; font-weight: 300; color: #fff;'>Opinión pública</p>", unsafe_allow_html=True)
